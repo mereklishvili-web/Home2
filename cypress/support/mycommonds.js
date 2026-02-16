@@ -8,8 +8,4 @@ Cypress.Commands.add('login', (Name, password) => {
       cy.get('input[name="password"]').type("bubu123!");
       cy.get('button[title="Login"]').click();
 
-      
-
-
-
-});
+      })
